@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# If you are using PostgreSQL, you can add:
+*.pgsql
+
+# Media folder (for uploaded files)
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Linux file system
+*.swp
+
+# pipenv, poetry, and virtualenv-specific files
+Pipfile
+Pipfile.lock
+poetry.lock
+.pytest_cache/
+
+# pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Migrations
+*.migrations/
+
+# Secrets
+secrets.json
+
+# Node modules (if you use npm or yarn)
+node_modules/
+
+# Environment variables file (important for sensitive info)
+.env
+.env.*
